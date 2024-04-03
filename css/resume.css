@@ -1,0 +1,54 @@
+.profile-image {
+    width: 200px;
+    height: 200px;
+    
+    overflow: hidden;
+    margin: 25px auto;
+    
+    }
+    .profile-image img {
+    width: 100%;
+    }
+.font-calibri-light {
+    font-family: 'Calibri Light', sans-serif;
+}
+.inline-block{
+    display: inline-block;
+
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.separator {
+    background: linear-gradient(to right, rgb(0, 255, 26), rgb(23, 91, 17), rgb(0, 255, 26));
+  height: 5px;
+  opacity: 100;
+}
+span {
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    0%{
+        color: chartreuse;
+    }
+    50%{
+        opacity: 0;
+        color: chartreuse;
+    }
+    100%{
+        color: chartreuse;
+    }
+} 
+.img-border-wrap {
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, rgb(0, 255, 26), rgb(23, 91, 17), rgb(0, 255, 26));
+    padding: 3px;
+  }
+
+.bg-onyx-card {
+    background-color: #2b2b2b !important;
+    box-shadow: 0px 5px #181818;
+    margin-bottom: 20px;
+}
