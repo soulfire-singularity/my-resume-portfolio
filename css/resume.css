@@ -52,3 +52,10 @@ span {
     box-shadow: 0px 5px #181818;
     margin-bottom: 20px;
 }
+.card-border-wrap {
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to bottom right, rgb(0, 255, 26), rgb(23, 91, 17));
+    padding: 3px;
+}
