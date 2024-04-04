@@ -53,5 +53,5 @@ span {
     margin-bottom: 20px;
 }
 .smoky-black {
-background-color: hsl(0, 0%, 7%);
+background-color: hsl(0, 0%, 7%) ! important;
 }
